@@ -2,20 +2,23 @@
 import { Faker, faker } from '@faker-js/faker';
 
 export function requestApiHubResidencial() {
+
+    let actualDate = new Date().toISOString().split('T')[0]
+
     const requestApiHubResidencial = {
         apolice: {
-            numeroPedido: "CALC-C2503100200",
+            numeroPedido: `CALC-C2503${faker.number.int(100000)}`,
             numApoliceAnterio: "0",
             codigoProduto: "RESID",
             sistemaOrigem: 15,
-            data: "2025-05-26 10:53:52",
+            data: `${actualDate} 00:00:00`,
             moedaObjetoSegurado: 28,
             moedaPremio: 28,
             codigoEscritorioRegional: "50",
             codigoRelacionamento: 50,
             flagIof: true,
-            inicioVigencia: "2025-05-26 00:00:00",
-            fimVigencia: "2026-05-26 00:00:00",
+            inicioVigencia: `${actualDate} 00:00:00`,
+            fimVigencia: "2026-06-04 00:00:00",
             limiteMaximoIndenizacao: 792000.0,
             acordoResseguro: 1,
             valorResseguro: 792000.0,
@@ -316,7 +319,7 @@ export function requestApiHubResidencial() {
                         dadosDocumentos: [
                             {
                                 tipo: "1",
-                                numero: "08667514080"
+                                numero: "68443947055"
                             }
                         ],
                         enderecos: [
@@ -353,7 +356,7 @@ export function requestApiHubResidencial() {
                         tipoTitularConta: "0",
                         nomeTitularConta: "MARCUS VINICIUS TESTE API HUB",
                         tipoIdentificacaoTitularConta: "1",
-                        numeroIdentificacaoTitularConta: "08667514080",
+                        numeroIdentificacaoTitularConta: "68443947055",
                         banco: 0,
                         agencia: 0,
                         tipoConta: 0,

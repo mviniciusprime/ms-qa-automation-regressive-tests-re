@@ -52,7 +52,7 @@ Cypress.Commands.add(
         headers = {
             'Content-Type': 'application/json',
             'accept': 'application/json',
-            'Authorization':'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcmluY2lwYWwiOiJVc2VyQ29udGV4dCIsIm5hbWVpZCI6IjQ2MjQiLCJ1bmlxdWVfbmFtZSI6IjQ2MjQiLCJDaGFubmVsSWQiOiIyIiwicm9sZSI6Ik11bHRpQ2FsY3VsbyIsIm5iZiI6MTc0ODM4OTYxNCwiZXhwIjoxNzQ4NDE4NDE0LCJpYXQiOjE3NDgzODk2MTR9.bcOAkcL8Tj40rJcl4CGPvmAKWjVt3SD_MO_yImLEC7I',
+            'Authorization':'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcmluY2lwYWwiOiJVc2VyQ29udGV4dCIsIm5hbWVpZCI6IjQ2MjQiLCJ1bmlxdWVfbmFtZSI6IjQ2MjQiLCJDaGFubmVsSWQiOiIyIiwicm9sZSI6Ik11bHRpQ2FsY3VsbyIsIm5iZiI6MTc0OTA0NTkwMSwiZXhwIjoxNzQ5MDc0NzAxLCJpYXQiOjE3NDkwNDU5MDF9.zGCC4m72hHtaww6b8S8mese_1iPzNrsadV4RjR0D0eg',
             ...headers
         }
 

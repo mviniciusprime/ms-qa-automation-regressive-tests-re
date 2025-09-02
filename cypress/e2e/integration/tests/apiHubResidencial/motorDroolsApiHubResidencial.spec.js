@@ -10,8 +10,8 @@ var valorFranquia
 var capitalSegurado
 
 
-describe("", () => {
-  context("", () => {
+describe("Testes API do HUB Cient Id - quiver-api", () => {
+  context("Testes API do HUB Residencial", () => {
     it("Chamar API do Drools e obter Calculo", () => {
       requestMotorDrools = motorCalculoDroolsResidencial();
 

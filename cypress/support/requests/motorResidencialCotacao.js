@@ -15,11 +15,11 @@ export function motorCalculoDroolsResidencial() {
         acordoComercial: "I",
         codCotacao: 100200,
         congenereAnterior: 0,
-        dataCotacao: "26-05-2025",
-        dataCriacaoCotacao: "26-05-2025",
+        dataCotacao: "04-06-2025",
+        dataCriacaoCotacao: "04-06-2025",
         descontoComercial: 0.00,
-        iniVigApolice: "26-05-2025",
-        fimVigApolice: "26-05-2026",
+        iniVigApolice: "04-06-2025",
+        fimVigApolice: "04-06-2026",
         mg: 0.05,
         listaCorretor: [
             {
@@ -51,7 +51,7 @@ export function motorCalculoDroolsResidencial() {
                     {
                         codCobertura: "IEQR",
                         faixaCapital: 1,
-                        capitalCobertura: 65000.0,
+                        capitalCobertura: 600000.0,
                         periodoIndenitario: 0,
                         tipoFranquia: 0,
                         valorFranquia: 0.0,
